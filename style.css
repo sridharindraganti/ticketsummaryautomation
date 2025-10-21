@@ -1,0 +1,34 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f8f9fa;
+}
+
+.controls {
+  margin: 20px;
+}
+
+select, input, button {
+  margin: 5px;
+  padding: 6px;
+}
+
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  background: white;
+}
+
+th, td {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+}
+
+th {
+  background: #007bff;
+  color: white;
+}
+
+h3 {
+  margin-top: 30px;
+}

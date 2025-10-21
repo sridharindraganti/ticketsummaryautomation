@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ticket Summary Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Ticket Summary Dashboard</h2>
+
+  <div class="controls">
+    <input type="file" id="excelFiles" accept=".xlsx,.xls" multiple>
+    
+    <select id="modeSelect">
+      <option value="combined">Combined</option>
+      <option value="separate">Separate</option>
+    </select>
+    
+    <button id="processBtn">Process</button>
+  </div>
+
+  <button id="deleteBtn" style="margin-left: 10px;">Delete Files</button>
+
+  <div id="output"></div>
+
+  <button id="downloadBtn">Download Result</button>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
